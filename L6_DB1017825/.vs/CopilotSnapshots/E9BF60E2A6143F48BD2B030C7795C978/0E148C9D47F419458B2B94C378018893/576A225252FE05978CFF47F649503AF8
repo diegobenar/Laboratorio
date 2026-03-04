@@ -1,0 +1,66 @@
+﻿using System;
+
+namespace lab_6
+{
+    class Program
+    {
+        static void Main()
+        {
+            //ejercico 1
+            Console.WriteLine("--TIPO DE VEHICULO--");
+            Console.WriteLine("Ingrese tu tipo de vehiculo: ");
+            int vehiculo = int.Parse(Console.ReadLine());
+            switch (vehiculo)
+            {
+                case 1: Console.WriteLine("Bicicleta -> No motorizado"); break;
+                case 2: Console.WriteLine("Motocicleta -> Ligero"); break;
+                case 3: Console.WriteLine("Auto -> Mediano"); break;
+                case 4: Console.WriteLine("Camión -> Pesado"); break;
+                case 5: Console.WriteLine("Autobús -> Transporte público"); break;
+                default: Console.WriteLine("Error!"); break;
+            }
+            Console.WriteLine("--------------------");
+
+            // ejercicio 2
+            Console.WriteLine("---BANCO INDUSTRIAL---");
+            Console.WriteLine("Ingrese su tipo de tarjeta: ");
+            int tarjeta = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese su limite actual: ");
+            double limite = int.Parse(Console.ReadLine());
+            double aumento = 0;
+            switch (tarjeta)
+            {
+                case 1: aumento = 0.25; break;
+                case 2: aumento = 0.35; break;
+                case 3: aumento = 0.40; break;
+                default: aumento = 0.50; break;
+            }
+            double monto = limite * aumento;
+            double nuevo_limite = limite + (limite  * aumento);
+
+            Console.WriteLine("--RESULTADOS--");
+            Console.WriteLine("Tipo de tarjeta: Tipo " + tarjeta);
+            Console.WriteLine("Porcentaje de aumento aplicado: " + aumento + "%");
+            Console.WriteLine("Monto del aumento: Q" + monto);
+            Console.WriteLine("Su nuevo limite de credito es: Q" + nuevo_limite);
+            Console.WriteLine("--------------");
+
+            // ejercicio 3
+            Console.WriteLine("--PUNTUACION DE EMPLEADOS");
+            Console.WriteLine("Ingrese su puntuacion: ");
+            double puntuacion = double.Parse(Console.ReadLine());
+            switch (puntuacion)
+            {
+                case 0.0:
+                    Console.WriteLine("INACEPTABLE");
+                    break;
+                case 0.4:
+                    Console.WriteLine("ACEPTABLE");
+                    break;
+                default:
+                    Console.WriteLine("Puntuación no válida");
+                    break;
+            }
+        }
+    }
+}
