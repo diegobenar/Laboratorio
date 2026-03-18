@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\diego\\Todo\\GitHub\\Laboratorio\\L8_DB1017825\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2538C18D-7643-4668-8637-C2A4AD7E9EF0}|L8_DB1017825\\L8_DB1017825.csproj|c:\\users\\diego\\todo\\github\\laboratorio\\l8_db1017825\\l8_db1017825\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2538C18D-7643-4668-8637-C2A4AD7E9EF0}|L8_DB1017825\\L8_DB1017825.csproj|solutionrelative:l8_db1017825\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D424EFE6-3F69-9659-6325-0DAB07A1EBCA}|L8_DB1017825\\L8_DB1017825.csproj|c:\\users\\diego\\todo\\github\\laboratorio\\l8_db1017825\\l8_db1017825\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D424EFE6-3F69-9659-6325-0DAB07A1EBCA}|L8_DB1017825\\L8_DB1017825.csproj|solutionrelative:l8_db1017825\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "L8_DB1017825\\Program.cs",
               "ToolTip": "C:\\Users\\diego\\Todo\\GitHub\\Laboratorio\\L8_DB1017825\\L8_DB1017825\\Program.cs",
               "RelativeToolTip": "L8_DB1017825\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAgwJMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T14:48:20.513Z",
               "EditorCaption": ""
