@@ -140,6 +140,6 @@ class Program
         Console.Write("Nombres ingresados: ");
         Console.WriteLine(string.Join(", ", nombres));
         Console.WriteLine($"Más de 5 letras: {masde5letras}");
-        Console.WriteLine($"Nombre más largo: {masLargo}");
+        Console.WriteLine($"Nombre más largo: {masLargdo}");
     }
 }
