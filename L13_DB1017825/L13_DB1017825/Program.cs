@@ -82,36 +82,36 @@ class Program
         Persona p1 = new Persona();
         p1.nombre = "Diego";
         p1.edad = 20;
-        p1.altura = 1.75;
+        p1.altura = 1.70;
         p1.estudiante = true;
         p1.MostrarInfo();
         Console.WriteLine();
 
         Console.WriteLine("Ejercicio 2");
         Vehiculo v1 = new Vehiculo();
-        v1.marca = "Toyota";
-        v1.modelo = "Corolla";
-        v1.anio = 2022;
-        v1.color = "Blanco";
-        v1.placa = "P-123ABC";
+        v1.marca = "BYD";
+        v1.modelo = "Seagull";
+        v1.anio = 2025;
+        v1.color = "Negro";
+        v1.placa = "P-893FFM";
         v1.MostrarInfo();
         Console.WriteLine();
 
         Console.WriteLine("Ejercicio 3");
 
         Producto prod1 = new Producto();
-        prod1.codigo = "PROD-001";
+        prod1.codigo = "PROD-123";
         prod1.nombre = "Audífonos Bluetooth";
-        prod1.precio = 349.99;
+        prod1.precio = 599.99;
         prod1.stock = 15;
         prod1.disponible = true;
         prod1.MostrarInfo();
         Console.WriteLine();
 
         Producto prod2 = new Producto();
-        prod2.codigo = "PROD-002";
+        prod2.codigo = "PROD-321";
         prod2.nombre = "Teclado Mecánico";
-        prod2.precio = 599.50;
+        prod2.precio = 799.50;
         prod2.stock = 0;
         prod2.disponible = false;
         prod2.MostrarInfo();
@@ -119,9 +119,9 @@ class Program
 
         Console.WriteLine("Ejercicio 4");
         Mascota m1 = new Mascota();
-        m1.nombre = "Max";
-        m1.especie = "Perro";
-        m1.edad = 3;
+        m1.nombre = "Leo";
+        m1.especie = "Gato";
+        m1.edad = 1;
         m1.peso = 12.5;
         m1.vacunado = true;
         m1.MostrarInfo();
